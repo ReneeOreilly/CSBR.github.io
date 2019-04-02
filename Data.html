@@ -3,27 +3,48 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Data</title>
     <link rel="icon" type="image/ong" href="Flag.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="style.css">   
 </head>
 
-<ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="index.html">CSBR</a></li>
-        <li role="presentation" class="active"><a href="comparison.html">Comparison</a></li>
-        <li role="presentation" class="active"><a href="data.html">Data</a></li>
-        <li role="presenation" class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                Research Questions <span class="caret"></span>
-            </a>
-        <ul class="dropdowm-menu"></ul>
-        </li>
-    </ul>
 <body>
-    <div class="container">
-        <div class="row">
-            <h1>Data</h1>
+        <div class="container-fluid">
+                <div class="row">
+                    <div>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">                  
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                  <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">CSBR <span class="sr-only">(current)</span></a>
+                                    </li> 
+                                </ul>    
+                                <ul class="nav navbar-nav navbar-expand-lg navbar-light bg-light navbar-right">
+                                    <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Research Questions
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="question1.html">Question 1</a>
+                                                <a class="dropdown-item" href="question2.html">Question 2</a>
+                                                <a class="dropdown-item" href="question3.html">Question 3</a>
+                                                <a class="dropdown-item" href="question4.html">Question 4</a>
+                                                <a class="dropdown-item" href="question5.html">Question 5</a>
+                                            </div>
+                                        </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="Comparison.html">Comparison</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="Data.html">Data</a>
+                                            </li>   
+                                </ul>
+                            </div>
+                        </nav>
+                   
+             <h1>Data</h1>
             <p>The following table includes all of the data used for plotting during this project.</p>
             <table class="table table-bordered table-hover table-condensed">
                 <thead><tr><th title="Field #1">AOAID</th>
@@ -1269,7 +1290,11 @@
                 <td align="right">8812</td>
                 </tr>
                 </tbody></table>
-            </div>
-        </div>      
-    </section>
+                   </div>
+            </div>      
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+</html>
