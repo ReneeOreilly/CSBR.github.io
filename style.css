@@ -19,7 +19,6 @@ body{
 a{
     text-decoration: none;
 }
-}
 #center {
     text-align: center;
 }
@@ -31,15 +30,10 @@ li{
     list-style: none;
 }
 .button {
-    background-color: aqua;
-
-     
+    background-color: aqua;   
 }
 @media (max-width: 600px) {
-       .dropdown-menu {
-        display: block;
-       }
-      li {
-          width:100%;
-      }
+    .dropdown-menu {
+     display: block;
     }
+ }
