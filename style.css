@@ -29,6 +29,9 @@ td {
 li{
     list-style: none;
 }
+nav{
+    background: whitesmoke;
+}
 .button {
     background-color: aqua;   
 }
