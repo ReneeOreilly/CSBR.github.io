@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Question Five</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="icon" type="image/ong" href="Flag.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="style.css">   
@@ -16,7 +17,7 @@
                         <nav class="navbar navbar-expand-lg navbar-light bg-light">                  
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto">
-                                  <li class="nav-item active">
+                                  <li class="nav-item active button">
                                         <a class="nav-link" href="index.html">CSBR <span class="sr-only">(current)</span></a>
                                     </li> 
                                 </ul>    
@@ -46,11 +47,12 @@
                 <h1>Is there a difference in the type of pothole service request by year and overall?</h1>
                 <img src="Potholeoverall.png">
                 <br>
-                <img src="Pothole2016.png">
-                <img src="Pothole2017.png">
-                <img src="Pothole2018.png">
-
-                <p> I will write text analyzing the data
+                <div class="row">
+                    <div class="col-4"><img style="width:100%" src="Pothole2016.png"></div>
+                    <div class="col-4"><img style="width:100%" src="Pothole2017.png"></div>
+                    <div class="col-4"><img style="width: 100%" src="Pothole2018.png"></div>
+                </div>
+                <p>We analyzed the type of pothole request by year and overall .  The three types are Residential, Major, and Alley.  From the charts above it is seen that the majority of requests were for Residential.  I used a Chi-square test to evaluate the null hypothesis that requests were equal across each type.  The results for overall were X2 (2, N = 4,157) = 4383.31, p <.05., establishing that we can reject the null hypothesis and our results are statistically significant.  The number of pothole requests is not equal across types. 
                 </p>
                 </div>  
             </div> 

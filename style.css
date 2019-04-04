@@ -7,20 +7,21 @@ h2 {
     padding: 20px 0;
     margin: 0;
 }
-
+img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 body{
     background: whitesmoke;
 }
 a{
     text-decoration: none;
 }
+}
 #center {
     text-align: center;
-}
-thead {
-    text-align: center;
-    width: 50%;
-    color:lightblue;
 }
 td {
     text-align: left;
@@ -30,22 +31,15 @@ li{
     list-style: none;
 }
 .button {
-    width: 50%;
     background-color: aqua;
 
-.navbar li {
-    display: inline-block;
-    padding: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-    background-color: whitesmoke;
-    border-radius: 3px;
-    }
-      
+     
 }
-@media screen and (max-width: 480px) {
-       .navbar a {
+@media (max-width: 600px) {
+       .dropdown-menu {
         display: block;
+       }
+      li {
+          width:100%;
+      }
     }
- 
