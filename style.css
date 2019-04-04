@@ -19,7 +19,6 @@ body{
 a{
     text-decoration: none;
 }
-}
 #center {
     text-align: center;
 }
@@ -30,13 +29,14 @@ td {
 li{
     list-style: none;
 }
+.navbar{
+    background: red;
+}
 .button {
-    background-color: aqua;
-
-     
+    background-color: aqua;   
 }
 @media (max-width: 600px) {
-       .dropdown-menu {
-        display: block;
-       }
+    .dropdown-menu {
+     display: block;
     }
+ }
