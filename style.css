@@ -29,14 +29,14 @@ td {
 li{
     list-style: none;
 }
-.navbar{
-    background: red;
-}
 .button {
     background-color: aqua;   
 }
 @media (max-width: 600px) {
-    .dropdown-menu {
-     display: block;
-    }
- }
+    .navbar-brand {
+       background:blue;
+   }
+   .button {
+       background-color: white;
+   }
+}
